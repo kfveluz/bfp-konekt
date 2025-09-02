@@ -1,0 +1,1 @@
+ALTER TABLE incidents ADD COLUMN IF NOT EXISTS fetched_by_apify BOOLEAN DEFAULT 0; 
